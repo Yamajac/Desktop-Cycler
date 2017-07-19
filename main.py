@@ -32,6 +32,7 @@ def changeWallpaper(monitor):
 	with open(skin_path, 'w') as f:
 		f.write(random.choice(getWallpapers()))
 <<<<<<< HEAD
+<<<<<<< HEAD
 	run([r"C:\Program Files\Rainmeter\Rainmeter.exe", r"!Update", "Desktop-Cycler-RM\Monitor{0}".format(monitor)])
 	return
 	
@@ -42,6 +43,8 @@ def getWallpapers():
 def deleteWallpaper(monitor):
 	confirmation = input("Are you sure you want to delete the wallpaper on monitor {0}? (y\\n)".format(monitor))
 =======
+=======
+>>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
 	run([r"C:\Program Files\Rainmeter\Rainmeter.exe", r"!refresh", "Desktop-Cycler-RM\Monitor{0}".format(monitor)])
 	return
 	
@@ -51,6 +54,9 @@ def getWallpapers():
 		
 def deleteWallpaper(monitor):
 	confirmation = input("Are you sure you want to delete the wallpaper? (y\\n)")
+<<<<<<< HEAD
+>>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
+=======
 >>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
 	if confirmation == 'y':
 		wallpaper = getWallpaperFromMonitor(monitor)
@@ -60,6 +66,7 @@ def deleteWallpaper(monitor):
 		return
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 <<<<<<< HEAD
 	if len(sys.argv) > 1:
 		if sys.argv[1] == 'delete':
@@ -71,6 +78,19 @@ if __name__ == '__main__':
 		changeWallpaper(monitor)
 	
 		
+=======
+	
+	if len(sys.argv) > 1:
+		if sys.argv[1] == 'delete':
+			deleteWallpaper(sys.argv[2])
+		else:
+			changeWallpaper(sys.argv[1])
+	else:
+		monitor = str(readMonitorFile())
+		changeWallpaper(monitor)
+	
+	
+>>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
 =======
 	
 	if len(sys.argv) > 1:

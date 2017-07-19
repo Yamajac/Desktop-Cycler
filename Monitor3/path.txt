@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Lauren\Desktop\Media\wallpapers\sorted\Anime\discreet\Buildings\WtQl0tE.jpg
+=======
+C:\Users\Lauren\Desktop\Media\wallpapers\1fnOaHa.jpg
+>>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
 =======
 C:\Users\Lauren\Desktop\Media\wallpapers\1fnOaHa.jpg
 >>>>>>> d11c5742164773b7f8d25c1ffeef19b68612ccb3
